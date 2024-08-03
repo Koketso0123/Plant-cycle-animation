@@ -1,0 +1,1069 @@
+h1{
+    text-align: center;
+    font-family: arial;
+    color: rgb(36, 183, 36);
+    font-size: 50px;
+    transition: 1s ease-in;
+    animation-name: psg;
+    animation-duration: 17s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes psg{
+    0% {
+        opacity: 1;
+    }
+    16.66%{
+        opacity: 1;
+    }
+    36.33%{
+        opacity: 1;
+    }
+    49.99%{
+        opacity: 1;
+    }
+    66.65%{
+        opacity: 1;
+    }
+    83.31%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#sky{
+    border:1px solid transparent;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: aliceblue;
+}
+#rain-1{
+    border: 1px solid #d4f1f9;
+    width:20px ;
+    height: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(45deg);
+    background-color: #a0e2f4;
+    position: relative;
+    top: 45px;
+    left: 65px;
+}
+#rain-2{
+    border: 1px solid #d4f1f9;
+    width:20px ;
+    height: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(45deg);
+    background-color: #a0e2f4;
+    position: relative;
+    left: 40px;
+}
+#rain-3{
+    border: 1px solid #d4f1f9;
+    width:20px ;
+    height: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(45deg);
+    background-color: #a0e2f4;
+    position: relative;
+    left: 10px;
+}
+#soil{
+    border: 1px solid brown;
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #B5651E;
+}
+#seed{
+    border: 1px solid transparent;
+    width: 20px;
+    height:15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    top:30px;
+    left:30px;
+}
+#leaf{
+    border: 1px solid transparent;
+    width: 15px;
+    height: 20px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #90ee90;
+    position: relative;
+    top: 72px;
+    left:42px ;
+}
+#stem{
+    border: 2px solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 1px;
+    height: 35px;
+    position: relative;
+    left:46px;
+    bottom:9px ;
+}
+#root-1{
+    border: 2px solid;
+    width:10px ;
+    height: 10px;
+    transform: rotate(45deg);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    left: 40px;
+    bottom: 7px;
+
+}
+#leaf-1{
+    border: 1px solid transparent;
+    width: 15px;
+    height: 20px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #90ee90;
+    position: relative;
+    top: 66px;
+    left:46px ;
+}
+#leaf-2{
+    border: 1px solid transparent;
+    width: 15px;
+    height: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #90ee90;
+    position: relative;
+    top: 43px;
+    left:30px ;
+}
+#stem-2{
+    border: 2px solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 1px;
+    height: 55px;
+    position: relative;
+    left:46px;
+    bottom:19px ;
+}
+#root-2{
+    border: 2px solid;
+    width:15px ;
+    height: 15px;
+    transform: rotate(45deg);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    left: 37px;
+    bottom: 16px;
+
+}
+#root-3{
+    border: 2px solid;
+    width:10px ;
+    height: 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    left: 52px;
+    bottom: 33px;
+
+}
+#root-4{
+    border: 2px solid;
+    width:10px ;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    left: 28px;
+    bottom: 48px;
+
+}
+#stem-3{
+    border: 2px solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 1px;
+    height: 75px;
+    position: relative;
+    left:36px;
+    bottom:35px ;
+}
+#leaf-3{
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #90ee90;
+    position: relative;
+    top: 51px;
+    left:36px ;
+}
+#leaf-4{
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #90ee90;
+    position: relative;
+    top: 29px;
+    left:15px ;
+}
+#leaf-5{
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transform: rotate(45deg);
+    background-color: #90ee90;
+    position: relative;
+    bottom: 15px;
+    left: 25px ;
+}
+#root-5{
+    border: 2px solid;
+    width: 25px;
+    height: 25px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    position: relative;
+    left: 23px;
+    bottom: 60px;
+}
+#root-6{
+    border:2px solid;
+    width:15px;
+    height:15px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:88px;
+    left:43px;
+}
+#root-7{
+    border:2px solid;
+    width:15px;
+    height:15px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:105px;
+    left:12px;
+}
+#root-8{
+    border: 2px solid;
+    width: 8px;
+    height: 8px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    position: relative;
+    left:31px;
+    bottom:105px;   
+}
+#root-9{
+    border:2px solid;
+    width:8px;
+    height:8px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:128px;
+    left:10px;
+}
+#root-10{
+    border:2px solid;
+    width:8px;
+    height:8px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    left:56px;
+    bottom:139px;
+}
+#stem-4{
+    border: 2px solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 1px;
+    height: 130px;
+    position: relative;
+    left:46px;
+    bottom:65px ;   
+}
+#leaf-7{
+    border: 1px solid transparent;
+    width: 20px;
+    height:20px;
+    transform: rotate(45deg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: relative;
+    left:35px;
+    top: 5px;
+    background-color: #90ee90;
+}
+#leaf-8{
+    border: 1px solid transparent;
+    width:20px;
+    height: 20px;
+    background-color: #90ee90;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    left: 25px;
+}
+#leaf-9{
+    border: 1px solid transparent;
+    width:20px;
+    height: 20px;
+    background-color: #90ee90;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    left: 45px;
+    bottom:22px;  
+}
+#branch-1{
+    border: 2px solid;
+    width:5px;
+    height:20px;
+    transform: rotate(45deg);
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom: 165px;
+    left:49px;
+}
+#leaf-10{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width:20px;
+    height:20px;
+    position: relative;
+    left:69px;
+    bottom: 61px;
+    transform: rotate(5deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#leaf-11{
+    border: 1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height:20px;
+    position: relative;
+    left:53px;
+    bottom: 82px;
+    transform: rotate(-40deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#leaf-12{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    position:relative;
+    left:65px;
+    bottom:90px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotate(-35deg);
+}
+#branch-2{
+    border: 2px solid;
+    width:5px;
+    height:20px;
+    transform: rotate(-65deg);
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:205px;
+    left: 35px;
+}
+#leaf-13{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-7deg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position:relative; 
+    bottom: 185px;
+}
+#leaf-14{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 6px;
+    bottom:193px;
+    transform: rotate(10deg);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#leaf-15{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    position: relative; 
+    left:15px ;
+    bottom:230px ;
+    transform: rotate(48deg);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%; 
+}
+#root-11{
+    border: 2px solid;
+    width: 55px;
+    height: 55px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    position: relative;
+    bottom:160px;
+    left:18px;   
+}
+#root-12{
+    border: 2px solid;
+    width: 25px;
+    height: 25px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:219px ;
+    left:60px;
+}
+#root-13{
+    border: 2px solid;
+    width: 25px;
+    height: 25px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:245px;
+    left:5px;   
+}
+#root-14{
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+    position: relative;
+    bottom:223px;
+    left:30px;   
+}
+#root-15{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:250px ;
+    left:60px;
+}
+#root-16{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:265px ;
+    left:20px;
+}
+#root-17{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom: 343px;
+    left: 5px; 
+    transform: rotate(45deg); 
+}
+#root-18{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:334px;
+    left: 26px;
+    transform: rotate(-45deg);
+}
+#root-19{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:372px;
+    left:75px;
+transform: rotate(-30deg);
+}
+#root-20{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom: 360px;
+    left: 53px;
+    transform: rotate(-45deg);
+}
+#petal-1{
+    border: 1px solid transparent;
+    width:5px;
+    height:5px;
+    background-color: pink;
+    position: relative;
+    left: 5px;
+    top: 19px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#petal-2{
+    border: 1px solid transparent;
+    width:5px;
+    height:5px;
+    background-color: pink;
+    position: relative;
+    right: 6px;
+    top: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#petal-3{
+    border: 1px solid transparent;
+    width:5px;
+    height:5px;
+    background-color: pink;
+    position: relative;
+    transform: rotate(45deg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#bud{
+    border: 1px solid transparent;
+    width:5px;
+    height:5px;
+    border-radius: 100%;
+    background-color: gold;
+}
+#petal-4{
+    border: 1px solid transparent;
+    width:5px;
+    height:5px;
+    background-color: pink;
+    position: relative;
+    transform: rotate(45deg);
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#petal-5{
+    border: 1px solid transparent;
+    width:5px;
+    height:5px;
+    background-color: pink;
+    position: relative;
+    bottom: 10px;
+    left: 6px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+#petal-6{
+    border: 1px solid transparent;
+    width:5px;
+    height:5px;
+    background-color: pink;
+    position: relative;
+    right: 6px;
+    bottom: 18px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#flower-1{
+    position: relative;
+    bottom: 67px;
+    left: 43px;
+}
+#flower-2{
+    position: relative;
+    left: 72px;
+    bottom:135px ;
+}
+#flower-3{
+    position: relative;
+    bottom:262px;
+    left: 13px;
+}
+#fruit-1{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: red;
+    position: relative;
+    bottom:50px;
+    left:37px;
+}
+#leaf-16{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width:20px;
+    height:20px;
+    position: relative;
+    left:69px;
+    bottom: 32px;
+    transform: rotate(5deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;   
+}
+#leaf-17{
+    border: 1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height:20px;
+    position: relative;
+    left:53px;
+    bottom: 53px;
+    transform: rotate(-40deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;   
+}
+#leaf-18{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    position:relative;
+    left:65px;
+    bottom:63px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotate(-35deg);   
+}
+#fruit-2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: red;
+    position: relative;
+     bottom: 92px;
+     left: 63px;  
+}
+#leaf-19{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-7deg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position:relative; 
+    bottom: 128px;
+    right: 1px;   
+}
+#leaf-20{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    bottom:136px;
+    transform: rotate(10deg);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#leaf-21{
+    border:1px solid transparent;
+    background-color: #90ee90;
+    width: 20px;
+    height: 20px;
+    position: relative; 
+    left:14px ;
+    bottom:173px ;
+    transform: rotate(48deg);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%; 
+}
+#fruit-3{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-color: transparent;
+    background-color: red;
+    position: relative;
+     bottom: 189px;
+     left: 8px;  
+}
+#root-21{
+    border: 2px solid;
+    width: 5px;
+    height: 5px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;  
+    bottom: 397px; 
+    right:5px;
+    transform: rotate(55deg);
+}
+#root-22{
+    border: 2px solid;
+    width: 5px;
+    height: 5px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:375px;
+    right: 2px;
+}
+#root-23{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:395px;
+    left:5px;
+}
+#root-24{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    transform: rotate(-45deg);
+    bottom:395px;
+    left:26px;
+}
+#root-25{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:430px ;
+    left:53px ;
+    transform: rotate(-45deg);
+}
+#root-26{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:426px;
+    left:88px ;
+}
+#root-27{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    left:78px;
+    bottom:451px ;
+}
+#root-28{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:490px;
+    left:89px;
+    transform: rotate(-45deg);
+}
+#root-29{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom:460px ;
+    left:12px ;
+}
+#root-30{
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    bottom: 467px; 
+    left:18px ;
+    transform: rotate(-45deg);  
+}
+#stage-1{
+    position: relative;
+    top: 200px;
+    left: 40px;
+   transition: 1s ease-in;
+    animation-name: stage-1;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes stage-1{
+    0% {
+        opacity: 1;
+    }
+    16.66%{
+        opacity: 0;
+    }
+    36.33%{
+        opacity: 0;
+    }
+    49.99%{
+        opacity: 0;
+    }
+    66.65%{
+        opacity: 0;
+    }
+    83.31%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#stage-2{
+    position: relative;
+    left: 200px;
+    transition: 1s ease-in;
+    animation-name: stage-2;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes stage-2{
+    0% {
+        opacity: 0;
+    }
+    16.66%{
+        opacity: 1;
+    }
+    36.33%{
+        opacity: 0;
+    }
+    49.99%{
+        opacity: 0;
+    }
+    66.65%{
+        opacity: 0;
+    }
+    83.31%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#stage-3{
+    position: relative;
+    bottom:200px ;
+    left:365px ;
+    transition: 1s ease-in;
+    animation-name: stage-3;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes stage-3{
+    0% {
+        opacity: 0;
+    }
+    16.66%{
+        opacity: 0;
+    }
+    36.33%{
+        opacity: 1;
+    }
+    49.99%{
+        opacity: 0;
+    }
+    66.65%{
+        opacity: 0;
+    }
+    83.31%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#stage-4{
+    position: relative;
+    bottom:400px;
+    left:530px ;
+    transition: 1s ease-in;
+    animation-name: stage-4;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes stage-4{
+    0% {
+        opacity: 0;
+    }
+    16.66%{
+        opacity: 0;
+    }
+    36.33%{
+        opacity: 0;
+    }
+    49.99%{
+        opacity: 1;
+    }
+    66.65%{
+        opacity: 0;
+    }
+    83.31%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#stage-5{
+    position: relative;
+    bottom:600px ;
+    left:680px ;
+    transition: 1s ease-in;
+    animation-name: stage-5;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes stage-5{
+    0% {
+        opacity: 0;
+    }
+    16.66%{
+        opacity: 0;
+    }
+    36.33%{
+        opacity: 0;
+    }
+    49.99%{
+        opacity: 0;
+    }
+    66.65%{
+        opacity: 1;
+    }
+    83.31%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#stage-6{
+    position: relative;
+    bottom: 800px;
+    left: 855px;
+    transition: 1s ease-in;
+    animation-name: stage-6;
+    animation-duration: 15s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes stage-6{
+    0% {
+        opacity: 0;
+    }
+    16.66%{
+        opacity: 0;
+    }
+    36.33%{
+        opacity: 0;
+    }
+    49.99%{
+        opacity: 0;
+    }
+    66.65%{
+        opacity: 0;
+    }
+    83.31%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
